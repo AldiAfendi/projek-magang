@@ -14,7 +14,7 @@
         <div class="website-logo">
             <a href="index.html">
                 <div class="logo">
-                    <img class="logo-size" src="images/logo-light.svg" alt="">
+                    <img class="logo-size" src="{{ asset('images/logo-light.svg') }}" alt="">
                 </div>
             </a>
         </div>
@@ -28,21 +28,21 @@
             <div class="form-holder">
                 <div class="form-content">
                     <div class="form-items">
-                        <h3>Login to account</h3>
-                        <p>Access to the most powerfull tool in the entire design and web industry.</p>
+                        <h3>Selamat Datang Di Website Kami</h3>
+                        <p>Silahkan login terlebih dahulu, Atau register jika belum memiliki akun.</p>
                         <form>
                             <input class="form-control" type="text" name="username" placeholder="E-mail Address" required>
                             <input class="form-control" type="password" name="password" placeholder="Password" required>
                             <div class="form-button">
-                                <button id="submit" type="submit" class="ibtn">Login</button> <a href="/forget16">Forget password?</a>
+                                <button id="submit" type="submit" class="ibtn">Masuk</button> <a href="/forget16">Lupa password?</a>
                             </div>
                         </form>
                         <div class="other-links">
-                            <div class="text">Or login with</div>
-                            <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a><a href="#"><i class="fab fa-google"></i>Google</a><a href="#"><i class="fab fa-linkedin-in"></i>Linkedin</a>
+                            <div class="text">Login dengan</div>
+                            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i>Facebook</a><a href="#"><i class="fab fa-google"></i>Google</a><a href="#"><i class="fab fa-linkedin-in"></i>Linkedin</a>
                         </div>
                         <div class="page-links">
-                            <a href="/register16">Register new account</a>
+                            <a href="/register16">Register</a>
                         </div>
                     </div>
                 </div>
