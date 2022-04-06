@@ -17,4 +17,12 @@ use App\Http\Controller\LoginController;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/home', function () {
+    return view('home');
+});
+
+Route::get('/pengisian', function () {
+    return view('pengisian');
+});
 Route::get('/login/login16', [LoginController::class, 'index']);
